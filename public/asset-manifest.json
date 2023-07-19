@@ -1,0 +1,39 @@
+{
+  "files": {
+    "static/js/0.e981cd31.chunk.js": "/static/js/0.e981cd31.chunk.js",
+    "static/js/0.e981cd31.chunk.js.map": "/static/js/0.e981cd31.chunk.js.map",
+    "main.css": "/static/css/main.4413f9ae.chunk.css",
+    "main.js": "/static/js/main.ba8488fb.chunk.js",
+    "main.js.map": "/static/js/main.ba8488fb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e964ff47.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e964ff47.js.map",
+    "static/css/3.cde5b762.chunk.css": "/static/css/3.cde5b762.chunk.css",
+    "static/js/3.fc5cb6ad.chunk.js": "/static/js/3.fc5cb6ad.chunk.js",
+    "static/js/3.fc5cb6ad.chunk.js.map": "/static/js/3.fc5cb6ad.chunk.js.map",
+    "static/js/4.8b07cd05.chunk.js": "/static/js/4.8b07cd05.chunk.js",
+    "static/js/4.8b07cd05.chunk.js.map": "/static/js/4.8b07cd05.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/3.cde5b762.chunk.css.map": "/static/css/3.cde5b762.chunk.css.map",
+    "static/css/main.4413f9ae.chunk.css.map": "/static/css/main.4413f9ae.chunk.css.map",
+    "static/js/3.fc5cb6ad.chunk.js.LICENSE.txt": "/static/js/3.fc5cb6ad.chunk.js.LICENSE.txt",
+    "static/media/main.min.css": "/static/media/profile-back.99637046.jpeg",
+    "static/media/ads.ebc6e1a7.png": "/static/media/ads.ebc6e1a7.png",
+    "static/media/card.aff35f18.jpeg": "/static/media/card.aff35f18.jpeg",
+    "static/media/card2.d4741967.jpg": "/static/media/card2.d4741967.jpg",
+    "static/media/diamond.a3026fb9.png": "/static/media/diamond.a3026fb9.png",
+    "static/media/ic_gift.7b7e9639.png": "/static/media/ic_gift.7b7e9639.png",
+    "static/media/custom.css": "/static/media/login.24b5ccff.png",
+    "static/media/male.6034d647.png": "/static/media/male.6034d647.png",
+    "static/media/moneybag.12448ec3.png": "/static/media/moneybag.12448ec3.png",
+    "static/media/profile-image.34d278df.png": "/static/media/profile-image.34d278df.png",
+    "static/media/videocall.4bd53f03.png": "/static/media/videocall.4bd53f03.png",
+    "static/media/withdraw.435d90a6.png": "/static/media/withdraw.435d90a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e964ff47.js",
+    "static/css/3.cde5b762.chunk.css",
+    "static/js/3.fc5cb6ad.chunk.js",
+    "static/css/main.4413f9ae.chunk.css",
+    "static/js/main.ba8488fb.chunk.js"
+  ]
+}
