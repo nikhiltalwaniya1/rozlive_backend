@@ -71,13 +71,43 @@ exports.store = async (req, res) => {
       return res
         .status(200)
         .json({ status: false, message: "Category does not Exist!" });
-
-    const gift = req.files.map((gift) => ({
-      image: gift.path,
-      coin: req.body.coin,
-      category: category._id,
-      type: gift.mimetype === "image/svga" ? 1 : 0,
-    }));
+    let gift
+    if (category.name === 'SVGA') {
+      let images
+      let images1
+      let giftArray = []
+      const promise = req.files.map((valueOfgifts) => {
+        let obj = {}
+        if (valueOfgifts?.mimetype == 'application/octet-stream') {
+          images = valueOfgifts.path
+          
+        } else {
+          images1 = valueOfgifts.path
+          obj.image = images
+          obj.coin = req.body.coin
+          obj.category = category._id
+          obj.type = valueOfgifts.mimetype === "application/octet-stream" ? 1 : 0
+          obj.image1 = images1        
+          giftArray.push(obj)
+        }
+        gift = giftArray
+      })
+      await Promise.all(promise)
+      // gift = req.files.map((gift) => ({ 
+      //   image: gift.path,
+      //   coin: req.body.coin,
+      //   category: category._id,
+      //   image1:
+      //   type: gift.mimetype === "image/svga" ? 1 : 0,
+      // }));
+    } else {
+      gift = req.files.map((gift) => ({
+        image: gift.path,
+        coin: req.body.coin,
+        category: category._id,
+        type: gift.mimetype === "image/svga" ? 1 : 0,
+      }));
+    }
 
     const gifts = await Gift.insertMany(gift);
 

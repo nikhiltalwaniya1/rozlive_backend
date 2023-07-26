@@ -4,6 +4,7 @@ const giftSchema = new mongoose.Schema(
   {
     image: String,
     coin: Number,
+    image1:String,
     type: { type: Number, enum: [0, 1], default: 0 }, //0 : image , 1 : gif 
     category: { type: mongoose.Schema.Types.ObjectId, ref: "GiftCategory" },
   },
